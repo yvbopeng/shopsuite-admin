@@ -104,7 +104,7 @@ export const useSettingsStore = defineStore('settings', {
       this.updateTheme()
     },
     updateTheme() {
-      let variables = require(`@sslib/styles/ms-themes.scss`)
+      let variables = require(`@sslib/styles/ms-themes.module.scss`)
       if (variables.default) variables = variables.default
 
       Object.keys(variables).forEach((key) => {

@@ -1,6 +1,6 @@
 <script lang="ts" setup>
   import { useRoutesStore } from '@/store/modules/routes'
-  import variables from '@sslib/styles/variables.scss'
+  import variables from '@sslib/styles/variables.module.scss'
 
   defineProps({
     layout: {

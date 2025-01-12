@@ -114,9 +114,9 @@ module.exports = defineConfig({
           const relativePath = relative(rootContext, resourcePath)
           if (
             relativePath.replace(/\\/g, '/') !==
-            'library/styles/variables.scss'
+            'library/styles/variables.module.scss'
           )
-            return `@use "~@sslib/styles/variables.scss" as *;${content}`
+            return `@use "~@sslib/styles/variables.module.scss" as *;${content}`
           return content
         },
       },

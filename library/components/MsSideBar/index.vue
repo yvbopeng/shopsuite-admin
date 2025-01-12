@@ -1,7 +1,7 @@
 <script lang="ts" setup>
   import { useRoutesStore } from '@/store/modules/routes'
   import { useSettingsStore } from '@/store/modules/settings'
-  import variables from '@sslib/styles/variables.scss'
+  import variables from '@sslib/styles/variables.module.scss'
   import { defaultOpeneds, uniqueOpened } from '@/config'
 
   const props = defineProps({
